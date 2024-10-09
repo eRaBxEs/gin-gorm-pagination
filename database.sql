@@ -2,7 +2,7 @@
 
 
 --- RUN THESE QUERIES ---
-
+--- Database table name : gin_blogs
 --
 -- Table structure for table `blogs`
 --
