@@ -2,6 +2,8 @@
     {{ template "layouts/header.tpl" .}}
         <div>
             <h1>Blogs</h1>
+            <div id="pagination" class="pagination">
+            </div>
 
             <br/>
             <br/>
