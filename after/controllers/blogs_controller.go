@@ -10,7 +10,7 @@ import (
 )
 
 func BlogsIndex(c *gin.Context) {
-	blogs := models.BlogsAll()
+	blogs := models.BlogsAll(c)
 	c.HTML(
 		http.StatusOK,
 		"blogs/index.tpl",
